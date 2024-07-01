@@ -6,8 +6,13 @@
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
   </head>
   <body>
-    <a-scene>
+    <a-scene embedded arjs>
       <a-gltf-model position="0 0 -4" rotation="0 0 0" scale="0.1 0.1 0.1" src="" > </a-gltf-model>
+
+      <a-plane position="0 0 -0.5" rotation="0 0 0" scale="0.25 0.25 0.25" color="#00FF00"> </a-plane>
+      <a-sky color="#ECECEC"> </a-sky>
+
+      <a-entity> camera</a-entity>
     </a-scene>
   </body>
 </html>
