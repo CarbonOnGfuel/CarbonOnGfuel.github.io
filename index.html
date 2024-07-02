@@ -557,6 +557,11 @@
       <a-image src="assets/RAM-info.png" scale="1 1 1" class="clickable" rotation="-90 0 0" gesture-handler></a-image>
     </a-marker>
 
+    <a-marker id="animated-marker" type="pattern" preset="custom" url="assets/HDD-Marker.patt" raycaster="objects: .clickable"
+      emitevents="true" cursor="fuse: false; rayOrigin: mouse;" id="markerA">
+      <a-image src="assets/HDD-info.png" scale="1 1 1" class="clickable" rotation="-90 0 0" gesture-handler></a-image>
+    </a-marker>
+
     <a-entity camera=""></a-entity>
     <canvas class="a-canvas a-mouse-cursor-hover" data-aframe-canvas="true" width="1227" height="921"> </canvas>
     <a-entity light="" data-aframe-default-light="" aframe-injected=""></a-entity>
